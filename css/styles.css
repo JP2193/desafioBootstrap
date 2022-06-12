@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img-nav {
+    width: 8rem;
+}
+
+.nombre-sitio {
+    text-align: center;
+    color: rgb(36, 35, 35);
+    text-transform: uppercase;
+    font-size: 5vw;
+    padding: 20px;
+    font-family: 'roboto', sans-serif;
+}
+
+.contenedor-logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.redes li a {
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none;
+}
+
+.header img {
+    background-color: rgba(255, 253, 253, 0.753);
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.header {
+    background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/200120161356-cnn-worlds-best-new-restaurants---madera---simon-brown-photography-1-1-full-169.jpg)!important;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.accordion {
+    padding-bottom: 50px;
+}
+
+.accordion-item {
+    margin: 0 auto;
+}
+
+.cuadro {
+    background-color: rgba(207, 214, 219, 0.685);
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu img {
+    width: 100%;
+    height: 300px;
+    transition: all 0.2s ease;
+}
+
+.col-lg-4 {
+    padding: 20px;
+    margin: 0;
+}
+
+.menu img:hover {
+    border: 5px solid white;
+}
+
+.form {
+    padding: 50px;
+}
